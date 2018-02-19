@@ -166,3 +166,53 @@ footer {
     width: 100%;
   }
 }
+@media only screen and (max-width: 480px) {
+  .site-cont {
+    width: 100%;
+  }
+  main {
+    height: 15rem;
+  }
+  .new-arr-box {
+    width: 100%;
+  }
+  .new-arr-content {
+    padding: 1rem 2rem;
+  }
+  .new-arr-content h3 {
+    font-family: Helvetica;
+    font-size: .77rem;
+    font-weight: bold;
+  }
+  .new-arr-content h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+  .product-cont {
+    width: 100%;
+  }
+  .product-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .watch {
+    display: none;
+  }
+  .loc {
+    width: 100%;
+    display: block;
+  }
+  .location {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: .5rem;
+  }
+  .location h4 {
+    padding: 3px;
+  }
+  footer {
+    text-align: center;
+  }
+}
