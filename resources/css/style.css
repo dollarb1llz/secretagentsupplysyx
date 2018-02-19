@@ -139,3 +139,30 @@ footer {
   display: flex;
   align-items: center;
 }
+@media only screen and (min-width: 971px) {
+  #nav-med {
+    display: none;
+  }
+}
+@media only screen and (max-width: 970px) {
+  #nav-large {
+    display: none;
+  }
+  .glasses {
+    display: none;
+  }
+  .product-cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .product-box {
+    width: 47%;
+  }
+  .location {
+    width: 35%;
+  }
+  .site-cont {
+    width: 100%;
+  }
+}
