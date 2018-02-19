@@ -85,14 +85,18 @@ nav {
   margin-bottom: 3rem;
 }
 .product-box {
+  display: flex;
+  flex-direction: column;
   width: 30%;
   border: 4px solid black;
   text-align: center;
   position: relative;
+  margin-bottom: 3rem;
 }
 .product-box img {
   height: 9rem;
   width: auto;
+  padding: 2rem;
 }
 .product-box h2 {
   width: 100%;
@@ -102,4 +106,36 @@ nav {
   padding-top: .5rem;
   padding-bottom: .5rem;
   font-family: Helvetica;
+}
+.loc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+
+}
+.location h2 {
+  background-color: black;
+  color: white;
+  font-family: Helvetica;
+  padding: 1rem 2rem;
+}
+.location h4 {
+  font-family: Helvetica;
+}
+footer {
+  width: 100%;
+  min-height: 7rem;
+  background-color: black;
+  color: white;
+  font-family: Helvetica;
+  text-align: left;
+  display: flex;
+  align-items: center;
 }
